@@ -65,7 +65,7 @@ public class Server implements Runnable {
                 }
                 Request request = new Request(parts[0],parts[1],parts[2]);
 
-                final var path = parts[1];
+                //final var path = parts[1];
                 if (!requests.keySet().contains(request)) {
                     notFound(out);
                     continue;
